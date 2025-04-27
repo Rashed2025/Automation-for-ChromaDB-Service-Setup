@@ -5,6 +5,13 @@ It covers everything from installing required packages to configuring ChromaDB t
 
 ---
 
+## Author
+
+**Rashed M. Alghamdi**  
+[LinkedIn : EngRashed1](https://www.linkedin.com/in/engrashed1)
+
+---
+
 ## Features
 
 - Updates the system and installs necessary packages (`python3-pip`, `python3-venv`, `git`).
