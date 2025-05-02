@@ -41,7 +41,7 @@ After=network.target
 Type=simple
 User=$USER_NAME
 WorkingDirectory=$WORKING_DIR
-ExecStart=$WORKING_DIR/myenv/bin/chroma run --path $WORKING_DIR/mydata
+ExecStart=$WORKING_DIR/myenv/bin/chroma run --path $WORKING_DIR/mydata --host 0.0.0.0 --port 8000
 Restart=always
 
 [Install]
